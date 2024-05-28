@@ -1,0 +1,57 @@
+{
+    "faq": [
+        {
+            "question": "Wie hoch war die installierte Nennleistung von Windkraftanlagen onshore in Deutschland ungefähr Ende 2020?",
+            "answer": "ca. 54 GW"
+        },
+        {
+            "question": "Welches Land hat in 2015 die größte Windkapazität aufgebaut? Welcher Zuwachs an Leistung wird dabei genannt?",
+            "answer": "China mit 25 GW"
+        },
+        {
+            "question": "Wie hoch ist die Nettostromerzeugung 2020 in Deutschland?",
+            "answer": "488 TWh = 488.000 GWh = 488 Mil. MWh = 488 Mrd. kWh"
+        },
+        {
+            "question": "Welchen Anteil hat die Windenergie an der Netto-Stromproduktion in der BRD (2020)?",
+            "answer": "2017: 20,2% und 2020: 27% (mit 132 TWh)"
+        },
+        {
+            "question": "Welchen Durchmesser hat bisher die größte Windkraftanlage der Welt und welche Leistung hat diese Anlage?",
+            "answer": "Adwen AD 8 180 mit einem Durchmesser von 220m und einer Leistung: 12 MW - Halidiade x (GE) mit einem Durchmesser von 220m und einer Leistung: 12 MW"
+        },
+        {
+            "question": "Welche politischen Rahmenbedingungen in Bezug auf die EEG-Einspeisevergütung werden in naher Zukunft die Windkraftkapazitäten beeinflussen?",
+            "answer": "Ausläufen der EEG-Einspeisevergütung für Windkraftanlagen onshore und offshore"
+        },
+        {
+            "question": "Wieso gilt Baden-Württemberg als Bundesland mit Windtradition?",
+            "answer": "Prof. Hütter, Uni Stuttgart, entwickelte 50er Jahre Grundlagenforschung für Windenergie und"
+        },
+        {
+            "question": "Welches technische Potenzial hat die Windenergie in Baden-Württemberg nach Untersuchungen des KIT?",
+            "answer": "~ 50%-70%"
+        },
+        {
+            "question": "Welches Ausbauziel wird für die Windkraft bis 2050 durch das Fraunhofer ISE formuliert?",
+            "answer": "~200 GW"
+        },
+        {
+            "question": "Welche Funktionen hatten historische Windkraftanlagen?",
+            "answer": "Mahlen von Getreide, Wasserschöpfen, Schmiedehämmer"
+        },
+        {
+            "question": "Wodurch fand eine Entkopplung zwischen Ort der Energieproduktion und Standort des Verbrauchers statt?",
+            "answer": "Elektrizität"
+        },
+        {
+            "question": "Wie hoch war der Bestand an Windmühlen am Anfang des 19. Jahrhunderts in Europa?",
+            "answer": "ca 200.000, davon 20.000 in den Deutschland und 9.000 Niederlanden. Heute ~25.000 (GW/2MW)"
+        },
+        {
+            "question": "Wodurch wurde das Windmühlensterben im 19.-ten Jahrhundert eingeleitet?",
+            "answer": "Dampfmaschine"
+        }
+
+    ]
+}

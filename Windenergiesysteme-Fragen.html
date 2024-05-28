@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winderngiesysteme-Fragen</title>
+  </head>
+  <body>
+    <h1>Windenergiesysteme-Fragen</h1>
+    <div id="container">
+      <button id="backButton" style="font-size: x-large">&larr;</button>
+      <div id="faqContainer"></div>
+      <button id="nextButton" style="font-size: x-large">&rarr;</button>
+    </div>
+  </body>
+
+  <style>
+    button {
+      margin: 20px;
+      padding: 10px;
+      background-color: #303030;
+      color: #ffffff;
+      border: 1px solid #1d1d1d;
+      border-radius: 5px;
+    }
+
+    .FAQ {
+      margin: 20px;
+      padding: 20px;
+      background-color: #303030;
+      border: 1px solid #1d1d1d;
+      border-radius: 15px;
+    }
+
+    .question {
+      font-weight: bold;
+    }
+
+    .answer {
+      margin-top: 10px;
+    }
+
+    body {
+      background-color: #555555;
+      font-family: Roboto, sans-serif;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0 10px;
+    }
+
+    h1 {
+      height: 10%;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 20px; /* Add some margin to create space between the h1 and the rest of the content */
+    }
+
+    #container {
+      display: flex;
+      width: 100%;
+      flex-grow: 1;
+      align-items: row;
+      justify-content: center;
+    }
+
+    #faqContainer {
+      width: 90%;
+      flex-grow: 1;
+      overflow: auto;
+      margin: 0 20px;
+    }
+
+    #backButton,
+    #nextButton {
+      height: fit-content;
+      width: 5%;
+      flex-shrink: 0;
+    }
+  </style>
+
+  <script>
+    let index = 0;
+
+    fetch("faq-windernergiesysteme.json")
+      .then((response) => response.json())
+      .then((data) => {
+        let nextButton = document.getElementById("nextButton");
+        let backButton = document.getElementById("backButton");
+        let clickHandler = (increment) => {
+          index = (index + increment + data.faq.length) % data.faq.length; // Calculate the new index
+
+          let faqContainer = document.getElementById("faqContainer");
+          faqContainer.innerHTML = ""; // Clear the container
+
+          let item = data.faq[index];
+
+          let faqElement = document.createElement("div");
+          faqElement.className = "FAQ";
+
+          let questionElement = document.createElement("h2");
+          questionElement.className = "question";
+          questionElement.textContent = item.question;
+          faqElement.appendChild(questionElement);
+
+          let summeryElementHeader = document.createElement("summary");
+          summeryElementHeader.textContent = "Antwort";
+
+          let summeryElementContent = document.createElement("p");
+          summeryElementContent.textContent = item.answer;
+
+          let answerElement = document.createElement("details");
+          answerElement.className = "answer";
+          answerElement.appendChild(summeryElementHeader);
+          answerElement.appendChild(summeryElementContent);
+          faqElement.appendChild(answerElement);
+
+          faqContainer.appendChild(faqElement);
+        };
+
+        nextButton.addEventListener("click", () => clickHandler(1)); // Increment the index when the next button is clicked
+        backButton.addEventListener("click", () => clickHandler(-1)); // Decrement the index when the back button is clicked
+        clickHandler(0); // Call the handler once to display the first item when the page loads
+      });
+  </script>
+</html>
