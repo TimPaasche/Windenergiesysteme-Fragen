@@ -51,6 +51,58 @@
         {
             "question": "Wodurch wurde das Windmühlensterben im 19.-ten Jahrhundert eingeleitet?",
             "answer": "Dampfmaschine"
+        },
+        {
+            "question": "Was versteht man unter einer Bockwindmühle?",
+            "answer": "drehbare Mühle auf einem Holzgestell"
+        },
+        {
+            "question": "Was sind die wesentlichen Merkmale einer Holländerwindmühle im Unterschied zur Bockwindmühle?",
+            "answer": "fester Trum, drehbare Spitze, Seitenwindrad"
+        },
+        {
+            "question": "Welche Vor- und Nachteile hat die Amerikanische Windturbine (Halladay Turbine) und welcher Einsatzschwerpunkt resultierte daraus?",
+            "answer": "viele Rotorblätter -> hohes Drehmoment -> Waserpumpe Fliehkraftregelung der Rotorblätter"
+        },
+        {
+            "question": "Was versteht man unter einer Eklipsen Regelung?",
+            "answer": "Windfahne quer zur Windrichtung (Sturmsicherung)"
+        },
+        {
+            "question": "Welche heute wieder viel diskutierte Speichertechnik setzte Prof. La Cour Ende des 19. Jahrhunderts zur Speicherung von Windenergie ein?",
+            "answer": "Elektrolyse => Wasserstoff"
+        },
+        {
+            "question": "Warum wurden in den 30er und 40er Jahren zunehmend Windkraftanlagen konzipiert und entwickelt?",
+            "answer": "Wirtschaftsprobleme, Rohstoffknappheit"
+        },
+        {
+            "question": "Was versteht man unter GROWIAN?",
+            "answer": "Große Windkraftanlagen"
+        },
+        {
+            "question": "In Dänemark wurden 1979/80 zwei fast identische Großwindanlagen gebaut. Was war der der technologische Unterschied zwischen den beiden Anlagen?",
+            "answer": "Stallregelung + Pitchregelung"
+        },
+        {
+            "question": "Nennen Sie die beiden wichtigsten Typen von VAWT's?",
+            "answer": "Darrieus-Roter und Savonius-Rotor"
+        },
+        {
+            "question": "Was sind die theoretischen Hauptvorteile von VAWT's?",
+            "answer": "Böen können besser genutzt werden, Sturmsicher, Keiner Rotorblattverstellung, Windrichtungsnachführung entfellt"
+        },
+        {
+            "question": "Was versteht man unter einem Eggbeater?",
+            "answer": "Darrieus-Rotor"
+        },
+        {
+            "question": "Was ist ein großer Nachteil des Darrieusrotors und wie kann man den diesen technisch kompensieren?",
+            "answer": "selbstanlauf nicht sicher -> Savanious-Rotor zusätzlich 3 Rotorblätter"
+        },
+        {
+            "question": "Was versteht man unter einem Flettnerrotor und auf welchem physikalischen Prinzip basiert dieser Rotortyp?",
+            "answer": "Krafterzeugung (Vortrieb bei Schiffen) -> Magnus-Effekt"
         }
 
     ]
